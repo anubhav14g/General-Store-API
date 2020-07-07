@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+
+<h1 style="color: #d9534f">Item</h1>
+
+<form class="" action="/vendor/list" method="post">
+  <div class="form-group">
+    <label>Title</label>
+    <input class="form-control" type="text" name="title">
+    <label>Description</label>
+    <textarea class="form-control" type="text" name="description" rows="5" cols="30"></textarea>
+    <label>Price</label>
+    <input class="form-control" type="number" name="price">
+  </div>
+    <button class="btn btn-primary" type="submit" name="button">ADD</button>
+</form>
+
+
+<%- include('partials/footer') %>
